@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Complementary
+comment0.text=\r\n\ \ This\ class\ finds\ the\ complementary\ colours\ of\ the\ item\ the\ user\ requires.\r\n
+comment1.params=
+comment1.target=Complementary()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=comp
+comment3.target=java.lang.String\ ComplementaryColour(java.lang.String)
+comment4.params=Hexcode
+comment4.target=int[]\ HexcodeToInt(java.lang.String)
+comment4.text=converts\ text\ into\ array\ of\ separate\ integer\ values.\r\n\ this\ function\ currently\ does\ not\ work\ for\ all\ input\ vales.\ \r\n
+comment5.params=RGB
+comment5.target=java.lang.String\ IntToHexcode(int[])
+comment6.params=n
+comment6.target=java.lang.String\ decToHex(int)
+comment6.text=\ decToHex\ is\ a\ function\ used\ to\ convert\ decimal\ values\ into\ hexadecimal.\r\n\ Source\:\ https\://www.geeksforgeeks.org/java-program-for-decimal-to-hexadecimal-conversion/\r\n
+numComments=7
