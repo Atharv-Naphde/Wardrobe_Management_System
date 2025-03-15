@@ -1,3 +1,10 @@
+/*
+This class is currently redundant. consider removing once all of its code is repourposed/ refactored.
+ */
+
+
+
+
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.Scanner;
@@ -9,20 +16,7 @@ public class database {
     //Main method is not allowed without arguments. This method is a placeholder and will not be used.
     public static void main(String[] Args){
         //main();
-        Scanner sc = new Scanner(System.in);
-        //CRUDE.newValues(sc.next(),sc.next(),sc.next(),sc.next());
-        //CRUDE.addValues(sc.next(),sc.next(),sc.next(),sc.next()); ALWAYS use whit
-        //CRUDE.displayAllItems(); //WORKS!!!!
-        CRUDE.setColour("black");// works!!
-        CRUDE.findColour();//works!!!
-        /*
-        Scanner SC=new Scanner(System.in);
-        System.out.println("what do you want the program to do?");
-        queryselect = SC.next();
-        //queryselector(SC.next());
-        givesvalues(queryselect = SC.next());
-        */
-
+        CRUDE.display();
     }
     public static void main(){
         Scanner SC=new Scanner(System.in);
