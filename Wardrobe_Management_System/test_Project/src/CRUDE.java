@@ -113,7 +113,7 @@ public class CRUDE {
 
     static StringBuilder itemNameList = new StringBuilder("Placeholder Items List");
     public static void showAllItems(){ //Performs Read part of CRUDE
-        itemNameList.delete(0,itemNameList.length()-1);
+        itemNameList.delete(0,itemNameList.length());
         String query = "SELECT * FROM clothingitems";
             try {
                 Connection connection = DriverManager.getConnection(url, username, password);
@@ -146,10 +146,40 @@ public class CRUDE {
         return ListOfItems;
     }
 
+    public static String[] selectItem(String namei){
+        String[] resultString = new String[5];
+        String query = "SELECT * FROM clothingitems WHERE name = '"+namei+"'";
+        try {
+            Connection connection = DriverManager.getConnection(url, username, password);
+            Statement statement = connection.createStatement();
+            ResultSet result = statement.executeQuery(query);
+            while(result.next()) {
+                System.out.println(result.getString("name"));
+                resultString[0]=String.valueOf(result.getString("name"));
+                System.out.println(result.getString("type"));
+                resultString[1]=String.valueOf(result.getString("type"));
+                System.out.println(result.getString("colourgroup"));
+                resultString[2]=String.valueOf(result.getString("colourgroup"));
+                System.out.println(result.getString("hexcode"));
+                resultString[3]=String.valueOf(result.getString("hexcode"));
+                System.out.println(result.getString("date_bought"));
+                resultString[4]=String.valueOf(result.getString("date_bought"));
+            }
+            result.close();
+            statement.close();
+            connection.close();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return resultString;
+    }
+
+
     static private String colour= "black";
     public static void setColour(String setter){
         colour=setter;
     }
+    static String allColour ="";
     public static void findColour(){
         String query = "SELECT name,type,hexcode,date_bought FROM clothingitems where colourgroup = '"+colour+"'";
         try {
@@ -158,6 +188,7 @@ public class CRUDE {
             ResultSet result = statement.executeQuery(query);
             while(result.next()) {
                 System.out.println(result.getString("name"));
+                allColour += String.valueOf(result.getString("name")) + "\n";
                 System.out.println(result.getString("type"));
                 //System.out.println(result.getString("colourgroup")); //still does not work.
                 System.out.println(result.getString("hexcode"));
@@ -170,6 +201,70 @@ public class CRUDE {
             throw new RuntimeException(e);
         }
     }
+    public static String getAllColour(){
+        return allColour;
+    }
+
+    public static String typeSearch(String typei){
+        String allType ="";
+        String query = "SELECT name FROM clothingitems where type = '"+typei+"'";
+        try {
+            Connection connection = DriverManager.getConnection(url, username, password);
+            Statement statement = connection.createStatement();
+            ResultSet result = statement.executeQuery(query);
+            while(result.next()) {
+                System.out.println(result.getString("name"));
+                allType += String.valueOf(result.getString("name")) + "\n";
+            }
+            result.close();
+            statement.close();
+            connection.close();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return allType;
+    }
+
+    public static String hexcodeSearch(String hexcodei){
+        String allType ="";
+        String query = "SELECT name FROM clothingitems WHERE hexcode = '"+hexcodei+"'";
+        try {
+            Connection connection = DriverManager.getConnection(url, username, password);
+            Statement statement = connection.createStatement();
+            ResultSet result = statement.executeQuery(query);
+            while(result.next()) {
+                System.out.println(result.getString("name"));
+                allType += String.valueOf(result.getString("name")) + "\n";
+            }
+            result.close();
+            statement.close();
+            connection.close();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return allType;
+    }
+
+    public static String dateSearch(String datei){
+        String allType ="";
+        String query = "SELECT name FROM clothingitems WHERE date_bought = '"+datei+"'";
+        try {
+            Connection connection = DriverManager.getConnection(url, username, password);
+            Statement statement = connection.createStatement();
+            ResultSet result = statement.executeQuery(query);
+            while(result.next()) {
+                System.out.println(result.getString("name"));
+                allType += String.valueOf(result.getString("name")) + "\n";
+            }
+            result.close();
+            statement.close();
+            connection.close();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return allType;
+    }
+
     //The variables and method below are responsible for setting values for update functions
     private static String name = "Test cloth: Placeholder"; //Placeholder Values
     private static String type = "top"; //Placeholder Values
@@ -208,6 +303,7 @@ public class CRUDE {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("Item added!");
     }
     public static void modifyValues(String namei, String typei, String colourgroupi, String hexcodei) {
         //This statement is responsible for setting values that need to be added or modify
@@ -230,6 +326,7 @@ public class CRUDE {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("Item modified!");
     }
 
     public static void deleteItem(String namei){
@@ -244,6 +341,7 @@ public class CRUDE {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("Item deleted!");
     }
 
 

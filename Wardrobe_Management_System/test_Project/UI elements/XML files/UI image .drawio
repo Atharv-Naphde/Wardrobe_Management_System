@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5">
+  <diagram name="Page-1" id="J4vYZRwt6Xu5VwuNVO-G">
+    <mxGraphModel dx="1235" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-1" value="Wardrobe_Management_System.exe" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="1066.67" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#FFFFFF;shadow=0;sketch=1;curveFitting=1;jiggle=2;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="90" width="292.51" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fad7ac;shadow=0;sketch=1;curveFitting=1;jiggle=2;aspect=fixed;rotation=90;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="255" y="79.99999999999997" width="142.51" height="253.34" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-7" value="Cloth Image" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="311.25" y="176.67" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 24px;&quot;&gt;Item Card&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;Information about the Item.&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;Information is presented in &#39;Item Cards&#39;. these cards are shaped in such a way that it makes the Application UI easy to implement on mobile devices. Information could include notable features of the clothing item like it&#39;s colour, size and condition of garment (washed, torn etc.) Information may also include notable things about the item such as the place it was bought from, or any specific memories associated with the garment.&lt;/p&gt;&lt;p&gt;The &#39;Item card&#39; may also contain a link to a list that shows the user all of the complementary clothing items that can be worn with this garment.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="199.38" y="290" width="253.74" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#FFFFFF;shadow=0;sketch=1;curveFitting=1;jiggle=2;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="547.0799999999999" y="90" width="292.51" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;List of Items&lt;/h1&gt;&lt;p&gt;A collapsible list that shows items that either complement the garment or are similar in colour. This list may have collapse animations that improve the UX of the app.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="566.83" y="130" width="253" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-12" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;strokeColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="628.33" y="270" width="130" height="277" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-13" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;align=center;fontStyle=2;labelBorderColor=none;textShadow=0;" vertex="1" parent="fpxUoqVimQn8PWo8fEQZ-12">
+          <mxGeometry width="130" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-14" value="Item 1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;align=center;spacingLeft=5;fontStyle=0;labelBorderColor=none;textShadow=0;" vertex="1" parent="fpxUoqVimQn8PWo8fEQZ-13">
+          <mxGeometry width="130" height="69" as="geometry">
+            <mxRectangle width="130" height="69" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;align=center;fontStyle=2;labelBorderColor=none;textShadow=0;" vertex="1" parent="fpxUoqVimQn8PWo8fEQZ-12">
+          <mxGeometry y="69" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-16" value="Item 2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;align=center;spacingLeft=5;fontStyle=0;labelBorderColor=none;textShadow=0;" vertex="1" parent="fpxUoqVimQn8PWo8fEQZ-15">
+          <mxGeometry width="130" height="70" as="geometry">
+            <mxRectangle width="130" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;align=center;fontStyle=2;labelBorderColor=none;textShadow=0;" vertex="1" parent="fpxUoqVimQn8PWo8fEQZ-12">
+          <mxGeometry y="139" width="130" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-18" value="Item 3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;align=center;spacingLeft=5;fontStyle=0;labelBorderColor=none;textShadow=0;" vertex="1" parent="fpxUoqVimQn8PWo8fEQZ-17">
+          <mxGeometry width="130" height="69" as="geometry">
+            <mxRectangle width="130" height="69" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-19" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;align=center;fontStyle=2;labelBorderColor=none;textShadow=0;" vertex="1" parent="fpxUoqVimQn8PWo8fEQZ-12">
+          <mxGeometry y="208" width="130" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-20" value="Item 4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;align=center;spacingLeft=5;fontStyle=0;labelBorderColor=none;textShadow=0;" vertex="1" parent="fpxUoqVimQn8PWo8fEQZ-19">
+          <mxGeometry width="130" height="69" as="geometry">
+            <mxRectangle width="130" height="69" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#FFFFFF;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="930" y="270" width="270" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-22" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Navigation Menu&lt;/h1&gt;&lt;p&gt;A menu containing the database in an interactable format. The user can use this menu to navigate to and from anywhere in the database. Opening an item in this menu will expand the item into it&#39;s corresponding &#39;item card&#39; as shown on the left.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="945" y="290" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#FFFFFF;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="930" y="92.5" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Database Menu&lt;/h1&gt;" style="text;html=1;overflow=hidden;rounded=0;spacing=0;whiteSpace=wrap;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="975" y="105" width="180" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-26" value="Add Item" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#666666;align=center;strokeColor=#4D4D4D;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1012.25" y="150" width="105.5" height="16.88" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-27" value="Modify Item" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#666666;align=center;strokeColor=#4D4D4D;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1013" y="176.67" width="105.5" height="16.88" as="geometry" />
+        </mxCell>
+        <mxCell id="fpxUoqVimQn8PWo8fEQZ-28" value="Remove Item" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#666666;align=center;strokeColor=#4D4D4D;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1013" y="206.56" width="105.5" height="16.88" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
